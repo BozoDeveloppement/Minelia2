@@ -108,7 +108,7 @@ class Home {
                 url: this.config.game_url === "" || this.config.game_url === undefined ? `${urlpkg}/files` : this.config.game_url,
                 authenticator: account,
                 timeout: 10000,
-                path: `${dataDirectory}/${process.platform == 'darwin' ? this.config.dataDirectory : `.${this.config.dataDirectory}`}`,
+                path: `${dataDirectory}/${process.platform == 'darwin' ? Oralia : `.${Oralia}`}`,
                 version: "1.16.5",
                 detached: launcherSettings.launcher.close === 'close-all' ? false : true,
                 downloadFileMultiple: 30,
