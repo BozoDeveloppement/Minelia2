@@ -1,0 +1,584 @@
+.tabs-settings-btn {
+    position: fixed;
+    bottom: 10%;
+    left: 10%;
+    width: 17.5%;
+    height: 80%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-color: #303030;
+    display: flex;
+    justify-content: center;
+}
+
+.tab-btn-css {
+    border-radius: 10px;
+    background: #303030;
+    font: normal normal bold 20px/25px Poppins;
+    color: #E1E1E1;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.tab-btn-css:hover {
+    background: #3C3C3C;
+}
+
+.active-tab-btn {
+    background: #3C3C3C;
+}
+
+.active-tab-btn:hover {
+    background: #3C3C3C;
+}
+
+.auth {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 180px;
+    height: 50px;
+}
+
+.java {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 180px;
+    height: 50px;
+}
+
+.launch {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    width: 180px;
+    height: 50px;
+}
+
+.save {
+    position: absolute;
+    top: 1%;
+    right: -352.5%;
+    width: 30px;
+    height: 30px;
+}
+
+.tabs-settings-content {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    width: 62.5%;
+    height: 80%;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background: #3C3C3C;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.active-tab-content {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.information {
+    padding: 0 40px;
+    font: normal normal normal 16px/25px Poppins;
+    color: #F1F1F1;
+}
+
+.title-settings {
+    text-align: center;
+    font: normal normal bold 20px/25px Poppins;
+    color: #F1F1F1;
+    margin: 2% 0;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.settings-content-scroll {
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.settings-content-scroll::-webkit-scrollbar {
+    width: 0;
+}
+
+.center-page {
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 100%;
+}
+
+
+/*******************************************************************************
+ *                                                                             *
+ * account sttings                                                             *
+ *                                                                             *
+ ******************************************************************************/
+
+.add-account {
+    width: 1%;
+    height: 1%;
+    border: none;
+    border-radius: 15px;
+    font: normal normal bold 30px/40px Poppins;
+    color: #D1D1D1;
+    background-color: #303030;
+    box-shadow: 1px 2px 5px #585858;
+    margin: 20px 0;
+    margin-bottom: 10px;
+}
+
+.accountHome {
+    position: absolute;
+    top: 27.5px;
+    left: 47px;
+    display: inline-block;
+    background: transparent;
+    font: normal normal bold 30px/40px Poppins;
+    width: 105px;
+    height: 10px;
+    margin: 1% 2%;
+    text-align: start;
+}
+
+.accountHome-name {
+    background: transparent;
+    font: normal normal bold 18px/18px Poppins;
+    text-overflow: ellipsis;
+    color: #E1E1E1;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 29ch;
+    pointer-events: none;
+}
+
+.accounts {
+    display: contents;
+    justify-content: center;
+}
+
+.account {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    display: inline-block;
+    background: #292929;
+    border: 4px solid #00bd7a;
+    font: normal normal bold 30px/40px Poppins;
+    width: 95%;
+    height: 80%;
+    margin: 1% 2%;
+    border-radius: 25px;
+    text-align: start;
+}
+
+.account:hover {
+    background: #292929;
+    box-shadow: 0 0 5px #006e47;
+    border: 4px solid #006e47;
+}
+
+.account-image {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    border-radius: 31px;
+    height: 70px;
+    margin: 15px 20px;
+    pointer-events: none;
+}
+
+.accouunt-profil {
+    position: absolute;
+    top: 5%;
+    left: -7.5%;
+    color: #F1F1F1F1;
+    margin: 0 100px;
+    margin-top: 15px;
+    font: normal normal bold 24px/35px Poppins;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 29ch;
+    pointer-events: none;
+}
+
+.account-subname {
+    position: absolute;
+    top: 25%;
+    color: #F1F1F1F1;
+    margin: 0 100px;
+    margin-top: 15px;
+    font: normal normal bold 24px/35px Poppins;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 29ch;
+    pointer-events: none;
+}
+
+.account-name {
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    color: #F1F1F1F1;
+    margin: 0 100px;
+    margin-top: 15px;
+    font: normal normal bold 24px/35px Poppins;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 29ch;
+    pointer-events: none;
+}
+
+.account-subuuid {
+    position: absolute;
+    top: 40.8%;
+    color: #F1F1F1F1;
+    margin: 0 100px;
+    margin-top: 15px;
+    font: normal normal bold 24px/35px Poppins;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 29ch;
+    pointer-events: none;
+}
+
+.account-uuid {
+    position: absolute;
+    top: 45%;
+    left: 12.5%;
+    color: #F1F1F1F1;
+    margin: 0 100px;
+    font: normal normal normal 18px/27px Poppins;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 29ch;
+    pointer-events: none;
+}
+
+.account-delete {
+    position: absolute;
+    bottom: 18%;
+    left: 15%;
+    margin: -60px 415px;
+    color: #f73434;
+    font-size: 25px;
+    background: #353535c7;
+    box-shadow: 0 0 5px #353535c7;
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.icon-account-delete-btn {
+    margin: 7px 9px;
+    position: absolute;
+    pointer-events: none;
+}
+
+.active-account {
+    background: #292929;
+    border: 4px solid #bd5d26;
+    box-shadow: 0 0 5px #bd5d26;
+}
+
+.active-account:hover {
+    background: #292929;
+    border: 4px solid #bd5d26;
+    box-shadow: 0 0 5px #bd5d26;
+}
+
+
+/*******************************************************************************
+ *                                                                             *
+ * java settings                                                               *
+ *                                                                             *
+ ******************************************************************************/
+
+.java-settings {
+    background: #292929;
+    border-radius: 20px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 4px solid #bd5d26;
+    box-shadow: 0 0 5px #bd5d26;
+}
+
+.memory-slider {
+    position: relative;
+    margin: 24px;
+    height: 18px;
+    width: 550px;
+    user-select: none;
+}
+
+.slider-touch-left,
+.slider-touch-right {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    z-index: 2;
+}
+
+.slider-touch-left span,
+.slider-touch-right span {
+    display: block;
+    width: 20px;
+    height: 10px;
+    background: #F1F1F1;
+    border: 4px solid #00bd7a;
+    transition: background-color .2s, border .2s;
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+.slider-touch-left span:after,
+.slider-touch-right span:after {
+    content: attr(value);
+    color: #00bd7a;
+    font: normal normal bold 12px/18px Poppins;
+    white-space: nowrap;
+    pointer-events: none;
+    position: absolute;
+    top: -20px;
+    left: 83%;
+    transform: translate(-50%);
+}
+
+.slider-line {
+    box-sizing: border-box;
+    position: absolute;
+    width: calc(100% - 18px);
+    left: 9px;
+    top: 7px;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #F0F0F0;
+    transition: background-color .2s;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.slider-line span {
+    display: block;
+    height: 100%;
+    width: 0%;
+    background: #00bd7a;
+    transition: background-color .2s;
+}
+
+.ram-info {
+    display: flex;
+    align-items: center;
+    font: normal normal bold 15px/25px Poppins;
+    color: #F1F1F1F1;
+}
+
+.path {
+    min-width: 50%;
+    font: normal normal normal 13px/20px Poppins;
+    border-radius: 18px;
+    padding: 8px 16px;
+    margin: 0 40px;
+    margin-top: 2%;
+    color: #F1F1F1F1;
+    background-color: #1f1f1f;
+    user-select: text;
+    transition: color .2s, background-color .2s;
+    border: none;
+    outline: none;
+}
+
+.path-button {
+    font: normal normal bold 13px/20px Poppins;
+    border-radius: 18px;
+    padding: 8px 30px;
+    background-color: #00bd7a;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: color .2s, background-color .2s;
+    border: none;
+    outline: none;
+}
+
+.path-button:hover {
+    background-color: #1f1f1f;
+}
+
+.path-button-reset {
+    font: normal normal bold 13px/20px Poppins;
+    border-radius: 18px;
+    padding: 8px 30px;
+    background-color: #00bd7a;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: color .2s, background-color .2s;
+    border: none;
+    outline: none;
+}
+
+.path-button-reset:hover {
+    background-color: #1f1f1f;
+}
+
+.path-file {
+    display: none;
+    pointer-events: none;
+}
+
+.args-settings {
+    min-width: 50%;
+    font: normal normal normal 13px/20px Poppins;
+    border-radius: 18px;
+    padding: 8px 16px;
+    margin: 0 40px;
+    margin-top: 2%;
+    color: #F1F1F1F1;
+    background-color: #1f1f1f;
+    user-select: text;
+    transition: color .2s, background-color .2s;
+    border: none;
+    outline: none;
+}
+
+
+/*******************************************************************************
+ *                                                                             *
+ * resolution settings                                                         *
+ *                                                                             *
+ ******************************************************************************/
+
+.input-size-content {
+    height: 5rem;
+}
+
+.input-size {
+    position: absolute;
+    display: flex;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, 0);
+}
+
+.input-settings {
+    text-align: center;
+    background: #1f1f1f;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    font-size: 20px;
+    width: 100px;
+    color: #F1F1F1F1;
+}
+
+.size-cross {
+    margin: 10px;
+}
+
+.size-cross:before {
+    font: normal normal bold 20px Icons;
+    content: "\e90e";
+}
+
+.select-wrap {
+    display: inline-flex;
+    margin-left: 10px;
+}
+
+.select-wrap:before {
+    position: absolute;
+    top: 53%;
+    transform: translate(20px, -50%);
+    font-size: 24px;
+    pointer-events: none;
+}
+
+.select-wrap:after {
+    position: relative;
+    top: -6px;
+    content: "\e903";
+    font-family: 'Icons';
+    margin-left: -1.2em;
+    font-size: 24px;
+    pointer-events: none;
+    transform: rotate(180deg);
+    color: black;
+    transition: color .2s;
+    pointer-events: none;
+}
+
+.select {
+    border-radius: 40px;
+    background-color: #00bd7a;
+    font: normal normal normal 12px/18px Poppins;
+    transition: color .2s, box-shadow .2s;
+    border: none;
+    outline: none;
+    appearance: none;
+}
+
+
+/*******************************************************************************
+ *                                                                             *
+ * launcher settings                                                           *
+ *                                                                             *
+ ******************************************************************************/
+ .checkbox-settings {
+    display: none;
+    border: 4px solid #bd5d26;
+    box-shadow: 0 0 5px #bd5d26;
+}
+
+.checkbox-settings+label {
+    display: inline;
+    position: relative;
+    top: 2px;
+    margin-right: 24px;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    transition: background-color .2s;
+    padding: 0px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.checkround {
+    position: absolute;
+    z-index: 2;
+    border-radius: 7px;
+    transition: all .2s;
+    background-color: #FFFFFF;
+}
+
+.checkbox-settings:checked+label {
+    background-color: #00bd7a;
+}
+
+.checkround {
+    border-radius: 3px;
+}
+
+.checkbox-settings+label {
+    display: inline-block;
+    margin-right: 8px;
+}

@@ -1,0 +1,74 @@
+.login-card {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 60%;
+    width: 35%;
+    background: #696969;
+    background-opacity: 0.60;
+    padding: 20px;
+    font: normal normal bold 19px/29px Poppins;
+    color: #E1E1E1;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.login-img {
+    position: absolute;
+    top: 22.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 180px;
+    height: 180px;
+}
+
+.login-desc {
+    position: absolute;
+    top: 50%;
+    left: 52.5%;
+    transform: translate(-50%, -50%);
+    width: 420px;
+}
+
+.login-type {
+    position: absolute;
+    top: 85%;
+    left: 52.5%;
+    display: grid;
+    padding: 0 7%;
+}
+
+.login-type-btn {
+    border-radius: 15px;
+    border: none;
+    margin: 2% 0;
+    height: 2em;
+    background: #696969;
+    background-opacity: 0.60;
+    color: #FFFFFF;
+    font: normal normal bold 19px/29px Poppins;
+    cursor: pointer;
+}
+
+.login-type-btn:hover {
+    text-decoration: underline;
+}
+
+.login-type-btn:disabled {
+    cursor: default;
+}
+
+.login-type-btn:disabled:hover {
+}
+
+.loginDisclaimerText {
+    text-align: center;
+    font-size: 0.5em;
+}
+
+.btn-option-login {
+    width: 100%;
+    display: grid;
+    text-align: center;
+}
