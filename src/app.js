@@ -36,14 +36,6 @@ ipcMain.on('main-window-progress', (event, options) => MainWindow.getWindow().se
 ipcMain.on('main-window-progress-reset', () => MainWindow.getWindow().setProgressBar(0))
 ipcMain.on('main-window-minimize', () => MainWindow.getWindow().minimize())
 
-ipcMain.on('main-window-maximize', () => {
-    if (MainWindow.getWindow().isMaximized()) {
-        MainWindow.getWindow().unmaximize();
-    } else {
-        MainWindow.getWindow().maximize();
-    }
-})
-
 ipcMain.on('main-window-hide', () => MainWindow.getWindow().hide())
 ipcMain.on('main-window-show', () => MainWindow.getWindow().show())
 
