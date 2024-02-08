@@ -109,7 +109,7 @@ class Home {
                 authenticator: account,
                 timeout: 10000,
                 path: `${dataDirectory}/${process.platform == 'darwin' ? this.config.dataDirectory : `.${this.config.dataDirectory}`}`,
-                version: "1.16.5",
+                version: "1.12.2",
                 detached: launcherSettings.launcher.close === 'close-all' ? false : true,
                 downloadFileMultiple: 30,
 

@@ -82,7 +82,9 @@
     position: absolute;
     width: 180px;
     height: 180px;
-    left: 15px;
+    left: -20px;
+    top: -200px;
+    z-index: 99999;
 }
 
 .server-list {
